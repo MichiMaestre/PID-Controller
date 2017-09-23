@@ -5,8 +5,6 @@
 
 ## Overview
 
-Hello
-
 Simple starter C++ project with:
 
 - cmake
