@@ -1,3 +1,7 @@
+/*
+ * "Copyright [year] <Copyright Owner>"
+ */
+
 #include <iostream>
 #include <lib.hpp>
 
