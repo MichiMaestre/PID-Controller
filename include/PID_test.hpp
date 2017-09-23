@@ -22,22 +22,8 @@
  */
 double compute() {
   PID pid;
-  double current = 0;
 
-  auto i1 = 0;
-  std::vector<int> count1;
-  while (i1 < 500) {
-      count1.push_back(i1);
-      i1++;
-    }
-
-  // Iterate 500 times and solve the control
-  // to try to reach the target speed of 50
-  for (int i : count1) {
-    double out = pid.control(current, 50);
-    current = current + out;
-  }
-  return current;
+  //Return the current velocity value to check if its near the target velocity
 }
 
 /*
@@ -49,19 +35,6 @@ double compute() {
  */
 double integral_check() {
   PID pid;
-  double current = 0;
 
-  auto i1 = 0;
-  std::vector<int> count1;
-  while (i1 < 500) {
-      count1.push_back(i1);
-      i1++;
-    }
-
-  for (int i : count1) {
-    double out = pid.control(current, 50);
-    current = current + out;
-    pid.integral += 1;
-  }
-  return pid.integral;
+  // Return the integral value after 500 iterations
 }
