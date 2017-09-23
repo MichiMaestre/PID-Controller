@@ -14,9 +14,9 @@
 
 class PID {
  private:
-  double kp = 500;
-  double ki = 500;
-  double kd = 300;
+  double kp = 0.1;
+  double ki = 0.1;
+  double kd = 0.1;
   double error_v;
   double error_prev = 0;
   int dt = 1;
