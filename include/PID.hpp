@@ -3,7 +3,7 @@
  *
  * @file PID.hpp
  *
- * @brief PID Controller Class to control velocity
+ * @brief PID Controller Class to control velocity header
  *
  * @copyright Miguel Maestre 2017
  *
@@ -14,10 +14,9 @@
 
 class PID {
  private:
-  double kp = 5;
-  double ki = 2;
-  double kd = 2;
-  double integral = 0;
+  double kp = 500;
+  double ki = 500;
+  double kd = 300;
   double error_v;
   double error_prev = 0;
   int dt = 1;
@@ -25,6 +24,7 @@ class PID {
  public:
   double target_vel;
   double actual_vel;
+  double integral = 0;
 
   /*
    * @brief Control Function that calculates the Proportional, Integral and Derivative elements of the PID
@@ -37,3 +37,4 @@ class PID {
    */
   double control(double actual_vel, double target_vel);
 };
+
