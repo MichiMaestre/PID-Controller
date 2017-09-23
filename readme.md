@@ -1,4 +1,5 @@
 # C++ Boilerplate
+[![Coverage Status](https://coveralls.io/repos/github/MichiMaestre/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/MichiMaestre/cpp-boilerplate?branch=master)
 ---
 
 ## Overview
