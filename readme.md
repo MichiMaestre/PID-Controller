@@ -1,6 +1,6 @@
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/MichiMaestre/PID-Controller.svg?branch=master)](https://travis-ci.org/MichiMaestre/PID-Controller)
-[![Coverage Status](https://coveralls.io/repos/github/MichiMaestre/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/MichiMaestre/cpp-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/MichiMaestre/PID-Controller/badge.svg?branch=master)](https://coveralls.io/github/MichiMaestre/PID-Controller?branch=master)
 ---
 
 ## Overview
