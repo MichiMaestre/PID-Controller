@@ -27,10 +27,11 @@ double compute() {
   int count = 0;
   // For iterating 500 steps
   while (count < 500){
+    // Compute and update the state
     state += pid.control(state,50);
     count++;
   }
-  //Return the current velocity value to check if its near the target velocity
+
   return state;
 }
 
@@ -43,7 +44,13 @@ double compute() {
  */
 double integral_check() {
   PID pid;
-
+  double state = 0;
+  int count = 0;
+  while (count < 500){
+    // Compute and update state
+    state += pid.control(state,10);
+    count++;
+  }
   // Return the integral value after 500 iterations
-  return 1;
+  return pid.integral;
 }
