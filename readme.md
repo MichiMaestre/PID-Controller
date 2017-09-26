@@ -1,14 +1,23 @@
-# C++ Boilerplate
+# Test-Driven Development Exercise - PID Controller
 [![Build Status](https://travis-ci.org/MichiMaestre/PID-Controller.svg?branch=master)](https://travis-ci.org/MichiMaestre/PID-Controller)
 [![Coverage Status](https://coveralls.io/repos/github/MichiMaestre/PID-Controller/badge.svg?branch=master)](https://coveralls.io/github/MichiMaestre/PID-Controller?branch=master)
 ---
 
 ## Overview
 
+This is a Test-Driven Development example
+
 Simple starter C++ project with:
 
 - cmake
 - googletest
+
+## Notes and TODO
+
+This project tests if a PID controller class is built properly and if its code is completely covered.
+As seen in Travis and Coveralls, the project builds succesfully and the chosen tests cover the whole project. So no  additional tests are required.
+
+User @RaviBhadeshiya updated the test functions compute() and integral_check to make the tests pass. 
 
 ## Standard install via command-line
 ```
